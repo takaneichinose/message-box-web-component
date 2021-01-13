@@ -2,7 +2,7 @@
 
 ## Description
 
-Thas is a Web Component's custom element to implement message box in HTML, CSS, and Javascript.
+This is a Web Component's custom element to implement message box in HTML, CSS, and Javascript.
 
 I didn't use any preprocessors, libraries, and frameworks in my Javascript code, so that I could use this dialog box wherever I want.
 
