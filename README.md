@@ -80,4 +80,4 @@ elm.addEventListener("click", async function() {
 
 ## Demo
 
-Click on the this link [Alert, Confirm, Prompt dialog box (modal) in Web Components](https://codepen.io/takaneichinose/full/LYRrQmW) to see the actual demo of this component.
+Click on this link [Alert, Confirm, Prompt dialog box (modal) in Web Components](https://codepen.io/takaneichinose/pen/LYRrQmW) to see the actual demo of this component.
