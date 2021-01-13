@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Test</title>
+	</head>
+	<body>
+		<ti-msg-box data-title="Title goes here." data-content="Content goes here." data-type="alert"></ti-msg-box>
+		<button id="testRun">Test Run</button>
+		<script src="./ti-msg-box.js"></script>
+		<script>
+			document.querySelector("#testRun").addEventListener("click", async function() {
+				await TiMsgBox.alert("TEST");
+			});
+		</script>
+	</body>
+</html>

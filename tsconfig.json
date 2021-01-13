@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+		"noEmitOnError": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+		"module": "ES6",
+		"target": "ES6",
+		"outDir": "./dist/"
+  },
+  "files": ["./src/ti-msg-box.ts"],
+  "compileOnSave": true
+}

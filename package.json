@@ -1,0 +1,24 @@
+{
+  "name": "message-box-web-component",
+  "version": "1.0.0",
+  "description": "This is a Web Component's custom element to implement message box in HTML, CSS, and Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --removeComments"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takaneichinose/message-box-web-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takaneichinose/message-box-web-component/issues"
+  },
+  "homepage": "https://github.com/takaneichinose/message-box-web-component#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}

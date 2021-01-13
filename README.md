@@ -12,12 +12,35 @@ Because I used Web Components, Promise, async/await to implement the dialog box,
 
 The color scheme of dialog box can be light or dark depends on the color scheme of your system.
 
+## Installation
+
+I used **Typescript** transpiler in this project. These are needed to transpile the Typescript codes into Javascript codes.
+
+1. First, to be able to use these libraries, **NodeJS** is required.
+2. Install packages by running the command below on your Terminal:
+```
+yarn
+```
+3. If the installation is successful, run the command below on your Terminal:
+```
+yarn build
+```
+4. If building is successful, *dist* folder will be created. (By default I also included the folder)
+
 ## Usage
 
 ### On HTML code
 
+Import the **ti-msg-box.js** file on your HTML file to get started.
+
 ```HTML
-<ti-msg-box data-title="Title goes here." data-content="Content goes here." data-type="alert" />
+<script src="<directory-goes-here>/ti-msg-box-js"></script>
+```
+
+After the Javascript is imported, you may use Web Component like the codes below.
+
+```HTML
+<ti-msg-box data-title="Title goes here." data-content="Content goes here." data-type="alert"></ti-msg-box>
 ```
 
 Message box is a custom element, so the ```<ti-msg-box>``` tag may just be explicitly called from HTML source code.
@@ -54,3 +77,7 @@ elm.addEventListener("click", async function() {
   // Do another process here
 });
 ```
+
+## Demo
+
+Click on the this link [Alert, Confirm, Prompt dialog box (modal) in Web Components](https://codepen.io/takaneichinose/full/LYRrQmW) to see the actual demo of this component.
